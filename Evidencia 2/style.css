@@ -1,0 +1,38 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+input {
+
+    background-color:  rgb(149, 170, 170);
+}
+body{
+    background-color: rgb(149, 170, 170);
+}
+table,td,th{
+    border: solid 1px black ;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.sinborde {
+    border: none;
+}
+td,th{
+    padding: 0px 100px;
+}
+.input{
+    width: 100px;
+    height: 25px;
+    display: block;
+    margin: 50px auto;
+}
+.button{
+    width: 100px;
+    height: 25px;
+    display: block;
+    margin: 50px auto;
+    background: none;
+}
+input[type="text"]{
+    width: 50px;
+}
