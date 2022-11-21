@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: rgb(187, 185, 246);
+    margin: 50px;
+}
+table,tr,td{
+    border: solid 2px black;
+}
+table{
+    display: inline-block;
+}
