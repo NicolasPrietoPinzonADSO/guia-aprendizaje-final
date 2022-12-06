@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia 7</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Algoritmo que a partir de una fecha de nacimiento y una fecha actual determine la edad en años actual de
+        una persona.</h1>
+    <form id="form">
+        <label>Ingrese su nombre</label>
+        <input type="text" required name="nombre"><br>
+        <label>Ingrese su año de naciemiento</label>
+        <input type="text" pattern="[0-9]+" name="fecha" required><br>
+        <label>Ingrese el año actual</label>
+        <input type="text" pattern="[0-9]+" name="fechaActual" required><br>
+        <input type="submit" value="Calcular"><br>
+        <label id="resultado"></label>
+    </form>
+</body>
+</html>
